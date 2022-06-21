@@ -1,0 +1,75 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+   
+    background-image:url(uber.jpg); 
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0%;
+    color: rgb(12, 12, 12);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    color: black;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input, select{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+.input-48{
+    width: 48%;
+}
+.input-100, select{
+    width: 85%;
+}
+.btn-cerrar{
+    background: rgb(4, 0, 255);
+    color: #fff;
+    margin: 0px 187px ;
+    padding: 10px 40px;
+    cursor:pointer;
+    font-size: 20px;
+    
+}
+.btn-cerrar :active{
+    transform: scale(1.05);
+}
+.form__link{
+    width: 100%;
+    margin: 7px;
+    text-align: left;
+    font-size: 14px;
+}
+.form{
+    margin: auto;
+    width: 1400px;
+    margin-top: 5px;
+    background: rgba(173, 247, 154, 0.80);
+    padding: 3px;    
+    border-radius: 6px;
+    border: 5px solid black;
+}
+h2{
+    text-align: left;
+    font-size: xx-large;
+}
+.input-contenedor{
+    margin-bottom: 25px;
+    border: 1px solid rgba(173, 247, 154, 0);
+}
+img{
+    margin: 0px, 200px;
+    border-color: aliceblue;
+    
+}
+ubi{
+    margin: 0px 500px;
+}
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transportes TNE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="seccion_header">
+        <h1 id="titulo">Transportes TNE</h1>
+        <h5 id="subtitulo">Los Mejores Transportes </h5>
+    </div>
+    <div id="seccion_menu">
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="">Datos del Viaje</a>
+                </li>
+                <li>
+                    <a href="">Editar Viaje</a>
+                </li>
+                <li>
+                    <a href="">Chof&eacute;res</a>
+                </li>
+                <li>
+                    <a href="">Veh&iacute;culos</a>
+                </li>
+                <li>
+                    <a href="">Reportes</a>
+                </li>
+                <li>
+                    <a href="">Informaci&oacute;n</a>
+                </li>
+                <li>
+                    <a href="contactanos_vista.html">Cont&aacute;ctanos</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="seccion_contenido">
+        <div><img src="img/t1.jpg" alt="" onclick="change(this)"></div>
+        <div><img src="img/t2.jpg" alt="" onclick="change(this)"></div>
+        <div><img src="img/t3.jpg" alt="" onclick="change(this)"></div>
+        <div><img src="img/t4.jpg" alt="" onclick="change(this)"></div>
+        <marquee direction="center">
+            <font face="arial white">
+                <h1 style="font-size: 3em; text-align: center; " id="contactanos">
+                    Cont&aacute;ctanos. Estamos a tu disposici&oacute;n.
+                </h1>
+            </font>
+        </marquee>
+        <form id="contacto">
+            <HR>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id='nombre' required placeholder="ingresa tu nombre"><br>
+            <label for="apellidos">Apellidos: </label>
+            <input type="text" name="apellidos" id="apellidos" required placeholder="ingresa tus apellidos"><br>
+            <label for="telefono">Telefono: </label>
+            <input type="tel" name="telefono" id="telefono" required placeholder="ingresa tu telefono"><br>
+            <label for="ciudad">Ciudad: </label>
+            <select name="ciudad" id="ciudad">
+               <option value="dh">Dolores Hidalgo</option>
+               <option value="slp">San Luis potosi</option>
+               <option value="sm">San Miguel</option>
+               <option value="cly">Celaya</option>
+           </select>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required><br>
+            <label for="edad">Edad: </label>
+            <input type="range" name="edad" id="edad" min="10" max="100"><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <h3 style="text-align: center;"> <Q>En unos momentos responderemos tu solicitud para resolver cualquier detalle</Q></h3> 
+    </div>
+    <div id="seccion_footer">
+        <h5 id="derechos"><b> Jessica Castillo 2020</b>
+        </h5>
+
+    </div>
+
+    <script src="js/imagenes.js">
+
+    </script>
+
+</body>
+
+</html>
